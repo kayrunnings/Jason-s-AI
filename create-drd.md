@@ -30,6 +30,32 @@ If the standards manifest or standards files are not available, proceed without 
 
 ---
 
+## Miro Visual Input (Optional)
+
+This phase supports **Miro visuals as input** to provide design direction and context. When a user provides a Miro board or frame reference:
+
+1. **Accepted inputs:**
+   - Miro board URL: `https://miro.com/app/board/{board_id}/`
+   - Miro frame reference: Board URL + frame name (e.g., "Homepage Wireframe" frame)
+   - Exported image from Miro
+
+2. **How to use Miro input:**
+   - Analyze wireframes for layout and component requirements
+   - Extract visual specifications from mockups
+   - Identify interaction patterns from flow diagrams
+   - Reference specific elements from the Miro board in the DRD
+
+3. **Useful Miro visuals for DRD:**
+   - Wireframes and mockups
+   - Component layouts
+   - Style tiles and mood boards
+   - Interaction flow diagrams
+   - Responsive breakpoint designs
+
+See `/miro-integration.md` for detailed API usage and configuration.
+
+---
+
 ## Goal
 
 To guide an AI assistant in creating a detailed Design Requirements Document (DRD) in Markdown format, based on an initial user prompt. The DRD should be clear, actionable, and suitable for a junior designer to understand and execute the design work.

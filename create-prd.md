@@ -31,6 +31,32 @@ If the standards manifest or standards files are not available, proceed without 
 
 ---
 
+## Miro Visual Input (Optional)
+
+This phase supports **Miro visuals as input** to provide additional context for product requirements. When a user provides a Miro board or frame reference:
+
+1. **Accepted inputs:**
+   - Miro board URL: `https://miro.com/app/board/{board_id}/`
+   - Miro frame reference: Board URL + frame name (e.g., "Feature Flow" frame)
+   - Exported image from Miro
+
+2. **How to use Miro input:**
+   - Analyze flowcharts and architecture diagrams for system requirements
+   - Extract user stories from story mapping boards
+   - Identify features and scope from product roadmaps
+   - Reference specific elements from the Miro board in the PRD
+
+3. **Useful Miro visuals for PRD:**
+   - Feature flowcharts and user flows
+   - System architecture diagrams
+   - Story mapping boards
+   - Product roadmaps
+   - Integration diagrams
+
+See `/miro-integration.md` for detailed API usage and configuration.
+
+---
+
 ## Goal
 
 To guide an AI assistant in creating a detailed Product Requirements Document (PRD) in Markdown format, based on an initial user prompt. The PRD should be clear, actionable, and suitable for a junior developer to understand and implement the feature.

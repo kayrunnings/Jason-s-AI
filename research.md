@@ -32,6 +32,32 @@ If the standards manifest or standards files are not available, proceed without 
 
 ---
 
+## Miro Visual Input (Optional)
+
+This phase supports **Miro visuals as input** to provide additional context for research. When a user provides a Miro board or frame reference:
+
+1. **Accepted inputs:**
+   - Miro board URL: `https://miro.com/app/board/{board_id}/`
+   - Miro frame reference: Board URL + frame name (e.g., "Competitive Analysis" frame)
+   - Exported image from Miro
+
+2. **How to use Miro input:**
+   - Analyze the visual content (diagrams, mind maps, flowcharts, sticky notes)
+   - Extract key themes, relationships, and insights from the visual
+   - Use the visual context to inform research scope and direction
+   - Reference specific elements from the Miro board in the RSD
+
+3. **Useful Miro visuals for Research:**
+   - Mind maps of problem space
+   - Competitive analysis boards
+   - User journey maps
+   - Stakeholder maps
+   - Affinity diagrams from user research
+
+See `/miro-integration.md` for detailed API usage and configuration.
+
+---
+
 ## Goal
 
 To guide an AI assistant in performing **structured research** before any requirements document (PRD, CRD, DRD) is created. The RSD gathers internal and external context, identifies constraints, risks, and opportunities, and provides **actionable input** to the subsequent Create phase.

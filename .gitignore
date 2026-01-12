@@ -1,0 +1,21 @@
+# Environment files with secrets
+.env
+.env.local
+.env.*.local
+
+# Keep example env file
+!.env.example
+
+# Task outputs (generated files)
+tasks/*.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
