@@ -30,6 +30,32 @@ If the standards manifest or standards files are not available, proceed without 
 
 ---
 
+## Miro Visual Input (Optional)
+
+This phase supports **Miro visuals as input** to provide content context and structure. When a user provides a Miro board or frame reference:
+
+1. **Accepted inputs:**
+   - Miro board URL: `https://miro.com/app/board/{board_id}/`
+   - Miro frame reference: Board URL + frame name (e.g., "Content Hierarchy" frame)
+   - Exported image from Miro
+
+2. **How to use Miro input:**
+   - Analyze content hierarchy maps for structure requirements
+   - Extract messaging frameworks and key themes
+   - Identify tone and voice from mood boards
+   - Reference specific elements from the Miro board in the CRD
+
+3. **Useful Miro visuals for CRD:**
+   - Content hierarchy maps
+   - Information architecture diagrams
+   - Messaging frameworks
+   - Brand mood boards
+   - Editorial calendars
+
+See `/miro-integration.md` for detailed API usage and configuration.
+
+---
+
 ## Goal
 
 To guide an AI assistant in creating a detailed Content Requirements Document (CRD) in Markdown format, based on an initial user prompt. The CRD should be clear, actionable, and suitable for a junior content creator or copywriter to understand and produce the content.
